@@ -26,7 +26,6 @@ def main():
       patterns.append(l.rstrip())
    nodes = trieConstruction(patterns)
 
-   import csv
    with open('test1.txt', 'w') as fp:
       for key, val in nodes.iteritems():
          s, b = key
