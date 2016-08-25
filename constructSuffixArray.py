@@ -7,8 +7,9 @@ def SuffixArray(text):
 
 def main():
    patterns = []
-   f = open('/Users/tingliu/Downloads/dataset_310_2.txt', 'r')
-   text = f.readline().strip()
+   #f = open('/Users/tingliu/Downloads/dataset_310_2.txt', 'r')
+   #text = f.readline().strip()
+   text = "cocoon$"
    suffixDict = SuffixArray(text)
    print(sorted(suffixDict))
    output = []
