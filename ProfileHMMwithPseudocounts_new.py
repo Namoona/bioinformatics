@@ -226,8 +226,6 @@ def main():
        fp.write("\n")
 
     fp.write("--------\n")
-    em = generateTransitionMatrix(threshold, alphabet, ml)
-
     em = generateEmissionMatrix(threshold, alphabet, ml)
     print(em)
     for a in alphabet:
