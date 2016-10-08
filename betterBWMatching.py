@@ -29,7 +29,7 @@ def findFirstOccurrence(firstColumn):
 
 
 def main():
-    f = open('/Users/tingliu/Downloads/dataset_301_7.txt', 'r')
+    f = open('/Users/tingliu/Downloads/dataset_303_4 (1).txt', 'r')
     text = f.readline().strip()
     firstColumn = ''.join(sorted(text))
     for l in f:
